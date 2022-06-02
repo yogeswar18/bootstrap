@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap-5 signup form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    
+
+
+
+    <div class="container bg-light">
+        <div class="row">
+            <div class="col-8">
+                <h4>Billing Address</h4>
+                <form>
+                    <div class="row">
+                        <div class="col-6">
+                            <label class="form-label" form="firstname">First Name</label>
+                            <input type="text" id="firstname" class="form-control">
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label" form="lastname">Last Name</label>
+                            <input type="text" id="lastname" class="form-control">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label" form="username">Username</label>
+                            <div class="input-group">
+                                <span class="input-group-text">@</span>
+                            <input  type="text" class="form-control" placeholder="username" id="Username">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label" form="email">Email
+                                <span class="text-muted">(Optional)</span>
+                            </label>
+                            <input type="text" id="email" placeholder="you@example.com" class="form-control">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label" form="address">Address</label>
+                            <input type="text" id="address" placeholder="1234 Main Street" class="form-control">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label" form="address 2">Address 2
+                                <span class="text-muted">(Optional)</span>
+                            </label>
+                            <input type="text" id="address 2" placeholder="Apartment or Suite" class="form-control">
+                        </div>
+                        <div class="col-5">
+                            <label class="form-label" form="country">Country</label>
+                            <select class="form-select" id="country" aria-label="Default select example">
+                                <option>Choose...</option>
+                                <option>India</option>
+                                <option>westindies</option>
+                            </select>
+                        </div>
+                        <div class="col-4">
+                            <label class="form-label" form="state">State</label>
+                            <select class="form-select" id="country" aria-label="Default select example">
+                                <option>Choose...</option>
+                                <option>Andhra Pradesh</option>
+                                <option>Telangana</option>
+                                <option>Tamilnadu</option>
+
+                            </select>
+                        </div>
+                        <div class="col-3">
+                            <label class="form-label" form="zip">Zip</label>
+                            <input type="text" id="zip" class="form-control">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input">
+                        <labal class="form-check-label">shipping address is the same as my billing address</labal>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input">
+                        <labal class="form-check-label">Save this information for next time</labal>
+                    </div>
+                    <hr>
+                    <h4>Payment</h4>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="girdradios" id="gridradios" value="option1">
+                        <labal class="form-check-label" form="gridRadios1">Credit Card</labal>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input"name="girdradios" id="gridradios" value="option1">
+                        <labal class="form-check-label" form="gridRadios1">Debit Card</labal>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input"name="girdradios" id="gridradios" value="option1">
+                        <labal class="form-check-label" form="gridRadios1">Paypal</labal>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <label class="form-label" form="cardname">Name on Card</label>
+                            <input type="text" id="card name" class="form-control">
+                            <samll class="text-muted">Full Name as displayed on Card</samll>
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label" form="creditcard">Credit Card Number</label>
+                            <input type="text" id="creditcard"  class="form-control">
+                        </div>
+                        <div class="col-3">
+                            <label class="form-label" form="expiration">Expiration</label>
+                            <input type="text" id="creditcard"  class="form-control">
+                        </div>
+                        <div class="col-3">
+                            <label class="form-label" form="cvv">Cvv</label>
+                            <input type="text" id="creditcard"  class="form-control">
+                        </div>
+                        
+                    </div>
+                    <hr>
+                    <button type="submit" class="btn btn-primary btn-block" style="width:100%">Continue To Check</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>
